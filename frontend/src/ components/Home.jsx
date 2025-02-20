@@ -22,7 +22,7 @@ const Home = () => {
     formData.append("file", selectedFile);
     try {
       const response = await axios.post(
-        "http://localhost:3000/convert",
+        "https://word-to-pdf-zm6v.onrender.com/convert",
         formData,
         {
           responseType: "blob",
